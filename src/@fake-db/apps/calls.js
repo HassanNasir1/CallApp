@@ -148,7 +148,8 @@ mock.onGet('/apps/invoice/invoices').reply(config => {
       return (
         range.some(date => {
           const rangeDate = new Date(date);
-          return (
+          
+return (
             invoiceDate.getFullYear() === rangeDate.getFullYear() &&
             invoiceDate.getDate() === rangeDate.getDate() &&
             invoiceDate.getMonth() === rangeDate.getMonth()

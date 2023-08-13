@@ -114,6 +114,7 @@ const defaultColumns = [
     headerName: 'Via',
     renderCell: ({ row }) => <Typography sx={{ color: 'text.secondary' }}>{row.via}</Typography>
   }
+
   // {
   //   flex: 0.2,
   //   minWidth: 90,

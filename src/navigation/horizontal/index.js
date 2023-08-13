@@ -4,6 +4,7 @@ const navigation = () => [
     path: '/home',
     icon: 'tabler:smart-home',
   },
+
   // {
   //   title: 'Second Page',
   //   path: '/second-page',

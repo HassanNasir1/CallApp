@@ -16,6 +16,7 @@ const users = [
     username: 'johndoe',
     email: 'hassan@turing.com'
   },
+
   // {
   //   id: 2,
   //   role: 'client',

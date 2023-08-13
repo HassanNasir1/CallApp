@@ -6,6 +6,7 @@ import axios from 'axios'
 // ** Fetch Invoices
 export const fetchData = createAsyncThunk('appInvoice/fetchData', async params => {
   console.log(params)
+
   const response = await axios.get('/apps/invoice/invoices', {
     params
   })
